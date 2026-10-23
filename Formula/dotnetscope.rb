@@ -2,28 +2,28 @@
 class Dotnetscope < Formula
   desc "Install, list, validate and remove .NET SDKs and runtimes"
   homepage "https://github.com/lzocateli/DotnetScope"
-  version "0.4.0"
+  version "0.5.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/lzocateli/DotnetScope/releases/download/v0.4.0/dotnetscope-osx-arm64.tar.gz"
-      sha256 "f1d7c048333726bb39b5ab7bc2b576c566435a99c899b63d12d8c41150828c7f"
+      url "https://github.com/lzocateli/DotnetScope/releases/download/v0.5.0/dotnetscope-osx-arm64.tar.gz"
+      sha256 "6f9c232b6ad5bbb4fd07b70d1d0aa3dc451118dcef411f8a77eedc36b32ab64c"
     end
     on_intel do
-      url "https://github.com/lzocateli/DotnetScope/releases/download/v0.4.0/dotnetscope-osx-x64.tar.gz"
-      sha256 "a5e709926c37d7e2a6ba2bae97cfbe73d81312d25953f9e9530810cd5ea34784"
+      url "https://github.com/lzocateli/DotnetScope/releases/download/v0.5.0/dotnetscope-osx-x64.tar.gz"
+      sha256 "6a58e85303b8717df8e58be10c4a34b690b3442f6bc062a173234dafdf0bdca1"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/lzocateli/DotnetScope/releases/download/v0.4.0/dotnetscope-linux-arm64.tar.gz"
-      sha256 "592fabce16774de893f8a41868567bd40de3465e65908a43c6dd06f5b3af71e9"
+      url "https://github.com/lzocateli/DotnetScope/releases/download/v0.5.0/dotnetscope-linux-arm64.tar.gz"
+      sha256 "680349120a914ff8e58c41b8bf91da87d36da8e2aba05ae6c14941ef442319fd"
     end
     on_intel do
-      url "https://github.com/lzocateli/DotnetScope/releases/download/v0.4.0/dotnetscope-linux-x64.tar.gz"
-      sha256 "4aac01298d0030d30233633378c1d2b2fb36b8d6fe88bea27319ae26a4b52748"
+      url "https://github.com/lzocateli/DotnetScope/releases/download/v0.5.0/dotnetscope-linux-x64.tar.gz"
+      sha256 "0c499d43622277e61b5255ad187c5fcc7871e6998d5770eb738b954925379050"
     end
   end
 
