@@ -2,28 +2,28 @@
 class Pixelpointer < Formula
   desc "Screen zoom, annotation and recording for presentations"
   homepage "https://github.com/lzocateli/PixelPointer"
-  version "0.3.0"
+  version "0.3.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/lzocateli/PixelPointer/releases/download/v0.3.0/pixelpointer-osx-arm64.tar.gz"
-      sha256 "63303d4a37996a3af5855eabbf326512507374528f83fc88bbf9834384d0d141"
+      url "https://github.com/lzocateli/PixelPointer/releases/download/v0.3.1/pixelpointer-osx-arm64.tar.gz"
+      sha256 "9abe5c1ae00690432747d1b0fda765d0a8d372bdf9fc3f45a5b7921bc08e5d55"
     end
     on_intel do
-      url "https://github.com/lzocateli/PixelPointer/releases/download/v0.3.0/pixelpointer-osx-x64.tar.gz"
-      sha256 "65a6005d795d85450b1958f3990afefbdd3e3353474bda4ef33bc1a92fe1b9a0"
+      url "https://github.com/lzocateli/PixelPointer/releases/download/v0.3.1/pixelpointer-osx-x64.tar.gz"
+      sha256 "438f97bcfd4ea7ea14cfc4a4f1d136dc0d2b16fb6547353892fb9cd4cc11b168"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/lzocateli/PixelPointer/releases/download/v0.3.0/pixelpointer-linux-arm64.tar.gz"
-      sha256 "488b63ddab05952be4bdb689d72e11a4445d14c20cbb526486072e9936b85176"
+      url "https://github.com/lzocateli/PixelPointer/releases/download/v0.3.1/pixelpointer-linux-arm64.tar.gz"
+      sha256 "38cb0dd3e8bfc5994b6316e862f90d6a34e632f91c634120b874105ea9a8c809"
     end
     on_intel do
-      url "https://github.com/lzocateli/PixelPointer/releases/download/v0.3.0/pixelpointer-linux-x64.tar.gz"
-      sha256 "66f937e88babe792fa4619d12320034069087f2f2e30bc95118984403cb7a533"
+      url "https://github.com/lzocateli/PixelPointer/releases/download/v0.3.1/pixelpointer-linux-x64.tar.gz"
+      sha256 "1053451b85d92df6e972a17d4a083638aa20b01d61860ff843e37e5ea62d5c40"
     end
   end
 
